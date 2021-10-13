@@ -17,6 +17,7 @@ h1 {
 
 li {
   list-style: none;
+  padding-left: 0px;
 }
 
 #productList {

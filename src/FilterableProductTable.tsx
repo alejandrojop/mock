@@ -1,6 +1,7 @@
-import { FC } from 'react';
+import { FC, useState } from 'react';
 
 export const FilterableProductTable: FC = () => {
+  const [search, setSearch] = useState('');
   return (
     <div id="filter">
       <input type="text" placeholder="Search..." />
