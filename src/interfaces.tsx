@@ -9,3 +9,8 @@ export interface Data {
   stocked: boolean;
   name: string;
 }
+
+export interface CategoryGroup {
+  label: string;
+  items: Data[];
+}
