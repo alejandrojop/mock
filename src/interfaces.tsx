@@ -1,5 +1,5 @@
 export interface UserInput {
-  onInputHandler: (value: string) => void;
+  onChangeHandler: (value: string) => void;
   value: string;
 }
 

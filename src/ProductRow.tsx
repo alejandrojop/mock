@@ -1,5 +1,5 @@
 import { FC } from 'react';
 
 export const ProductRow: FC = () => {
-  return <h3>category</h3>;
+  return <h3>...</h3>;
 };
