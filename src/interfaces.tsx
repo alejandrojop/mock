@@ -3,6 +3,11 @@ export interface UserInput {
   value: string;
 }
 
+export interface handleSearch {
+  data: string[];
+  searchInput: string;
+}
+
 export interface Data {
   category: string;
   price: string;

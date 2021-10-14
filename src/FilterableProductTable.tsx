@@ -8,14 +8,16 @@ const TextInput: FC<UserInput> = ({ onChangeHandler, value }) => {
 };
 
 //test for dynamic search
-const handleSearch = (data, searchInput) => {
-  const filteredData = data.filter((value) => {
-    const searchStr = searchInput.ToLowerCase();
-    const oneItenMatches = value.items.some((item) =>
-      item.ToLowerCase().includes(searchStr)
-    );
-  });
-};
+// const handleSearch = (data, searchInput) => {
+//   const filteredData = data.filter((value) => {
+//     const searchStr = searchInput.ToLowerCase();
+//     const oneItenMatches = value.items.some((item) =>
+//       item.ToLowerCase().includes(searchStr)
+//     );
+//     return oneItenMatches;
+//   });
+//   console.log(filteredData);
+// };
 
 export const FilterableProductTable: FC = () => {
   const [search, setSearch] = useState('');
